@@ -1,0 +1,1 @@
+python ./localrunner.py -p1 simple_bot -p2 simple_bot -p3 "..\bot\x64\Release\bot_olpata.exe"  -p4 simple_bot -p5 simple_bot -p6 simple_bot

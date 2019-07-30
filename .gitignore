@@ -1,0 +1,9 @@
+bot/x64/
+bot/Release/
+bot/Debug/
+local_runner/__pycache__/
+local_runner/log.txt
+*.bak
+*.VC.db
+*.VC.VC.opendb
+bot/log.txt

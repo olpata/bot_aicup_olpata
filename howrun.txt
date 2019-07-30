@@ -1,0 +1,22 @@
+cd /d local_runner
+pip install -r ./requirements.txt
+python ./localrunner.py -p1 cpp_strategy.cpp -p2 simple_bot
+python ./localrunner.py -p1 simple_bot -p2 simple_bot
+python ./localrunner.py -p1 simple_bot -p2 simple_bot -p3 keyboard
+
+python ./localrunner.py -p1 simple_bot -p2 simple_bot -p3 "..\bot\x64\Release\bot_olpata.exe"
+
+
+
+python ./localrunner.py -p1 simple_bot -p2 simple_bot --p2l ".\p2.log" -p3 "..\bot\x64\Release\bot_olpata.exe"  --p3l ".\p3.log"
+
+python ./localrunner.py -p1 simple_bot -p2 simple_bot -p3 "..\bot\x64\Release\bot_olpata.exe"  -p4 simple_bot -p5 simple_bot -p6 simple_bot
+python ./localrunner.py -p1 simple_bot -p2 simple_bot -p3 "..\bot\x64\Debug\bot_olpata.exe"   -p4 simple_bot -p5 simple_bot -p6 simple_bot
+
+
+
+--for debug copy ucrtbased.dll to run dir
+
+
+
+https://github.com/MailRuChamps/miniaicups/tree/master/paperio
